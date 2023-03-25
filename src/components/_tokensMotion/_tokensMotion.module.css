@@ -1,0 +1,213 @@
+.root {
+  position: relative;
+  width: 482px;
+  height: 220px;
+  align-items: flex-start;
+  background-color: #f3f6fb;
+  overflow: hidden;
+}
+.validMotionTokens {
+  color: #434b58;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.invalid {
+  color: #434b58;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 72px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.motionMoveIn {
+  position: absolute;
+  left: 12px;
+  top: 30px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background-color: #044aff;
+}
+.moveIn {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.motionDissolve {
+  position: absolute;
+  left: 88px;
+  top: 30px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background-color: #044aff;
+}
+.dissolve {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.motionSmart {
+  position: absolute;
+  left: 166px;
+  top: 30px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background-color: #044aff;
+}
+.smart {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.motionPush {
+  position: absolute;
+  left: 233px;
+  top: 30px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background-color: #044aff;
+}
+.push {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.motionBouncy {
+  position: absolute;
+  left: 290px;
+  top: 30px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background-color: #044aff;
+}
+.bouncy {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.motionCustomSpring {
+  position: absolute;
+  left: 367px;
+  top: 30px;
+  width: min-content;
+  height: 20px;
+  flex-direction: column;
+  place-content: center;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background-color: #044aff;
+}
+.customSpring {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.motionInstant {
+  position: absolute;
+  left: 12px;
+  top: 90px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background-color: #fe5050;
+}
+.instant {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.motionNone {
+  position: absolute;
+  left: 88px;
+  top: 90px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background-color: #fe5050;
+}
+.none {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
